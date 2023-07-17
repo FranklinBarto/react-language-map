@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import languages from '../data/languages.json'
 import countryLanguages from '../data/languagesByCountries.json'
 
-const SearchBar = ({setInfoData,setCountryHighlights}) => {
+const SearchBar = ({setInfoData,setCountryHighlights,title}) => {
     const [selected,setSelected] = useState(false)
     const [search,setSearch] = useState()
     const [results,setResults] = useState()
@@ -37,6 +37,12 @@ const SearchBar = ({setInfoData,setCountryHighlights}) => {
             setSelected()
         }
     },[search])
+
+    useEffect(()=>{
+        if(title!==''&&title!==search){
+            setSearch('')
+        }
+    },[title])
 
     return (
         <div className='searchBar'>

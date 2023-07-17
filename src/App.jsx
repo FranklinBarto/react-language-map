@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 import Info from './components/info';
@@ -7,7 +9,6 @@ import AppTitle from './components/appTitle';
 import Highlighted from './components/highlighted';
 import SearchBar from './components/searchBar';
 import Downloads from './components/downloads';
-import { useState } from 'react';
 
 function App() {
   const [infoData,setInfoData] = useState({title:'', data:[], dataType: 'none'})
@@ -18,7 +19,7 @@ function App() {
     <main className="App">
       <Map setInfoData={setInfoData} setHighlight={setHighlight} countryHighlights={countryHighlights}/>
       <AppTitle/>
-      <SearchBar setInfoData={setInfoData} setCountryHighlights={setCountryHighlights}/>
+      <SearchBar title={infoData.title} setInfoData={setInfoData} setCountryHighlights={setCountryHighlights}/>
       <Highlighted value={highlight}/>
       <Info title={infoData.title} data={infoData.data} dataType={infoData.dataType}/>
       <Downloads/>

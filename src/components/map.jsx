@@ -199,11 +199,13 @@ const MapComponent = ({setInfoData,setHighlight,countryHighlights}) => {
 
     useEffect(()=>{
         if(countryHighlights){
+          vectorLayer.current.getSource().forEachFeature(function (feature) {
+            featureOverlay.current.getSource().removeFeature(feature);
+          })
             let countries = countryHighlights.map(item=>(item.country.toLowerCase()))
             vectorLayer.current.getSource().forEachFeature(function (feature) {
               multiSelectOverlay.current.getSource().removeFeature(feature);
                 if(countries.includes(feature.values_.name.toLowerCase())){
-                    console.log(feature.values_.name)
                     multiSelectOverlay.current.getSource().addFeature(feature);
                 }
             });
