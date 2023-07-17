@@ -9,11 +9,28 @@ import GeoJSON from 'ol/format/GeoJSON';
 
 import countiesData from '../data/countries.geojson'
 
-const MapComponent = ({setInfoData,setHighlight}) => {
-    
-const [selectedData, setSelectedData] = useState()
+import LanguagesCountries from '../data/languagesByCountries.json'
+
+//Get info
+const searchByString = (target)=>{
+    let filteredData = LanguagesCountries.filter(item => {
+      // Check if the item contains the substring, use all lowercase to allow for case insensitive search
+      return JSON.stringify(item.country).toLowerCase().includes(target.toLowerCase());
+    });
+    if(filteredData.length>0){
+        return(filteredData[0].languages)
+    }else{
+        return(["Missing Data"])
+    }
+}
+
+const MapComponent = ({setInfoData,setHighlight,countryHighlights}) => {
   const mapRef = useRef()
   const ref = useRef()
+
+  const featureOverlay = useRef()
+  const vectorLayer = useRef()
+  const multiSelectOverlay = useRef()
 
   const colors = {
     primary: 'rgb(55,139,164)',
@@ -21,53 +38,71 @@ const [selectedData, setSelectedData] = useState()
     light: 'rgb(232,237,231)',
     highlight: 'rgb(104,199,53)',
   }
+  var style = new Style.Style({
+          fill: new Style.Fill({
+            color: colors.primary
+          }),
+          stroke: new Style.Stroke({
+            color: '#319FD3',
+            width: 1
+          }),
+          text: new Style.Text({
+            font: '14px Helvetica',
+            fill: new Style.Fill({
+              color: colors.light
+            }),
+            stroke: new Style.Stroke({
+              color: colors.dark,
+              width: 1
+            })
+          })
+        });
 
+        var highlightStyle = new Style.Style({
+          stroke: new Style.Stroke({
+            color: '#f00',
+            width: 1
+          }),
+          fill: new Style.Fill({
+            color: 'rgba(255,0,0,0.1)'
+          }),
+          text: new Style.Text({
+            font: '14px Helvetica',
+            fill: new Style.Fill({
+              color: colors.light
+            }),
+            stroke: new Style.Stroke({
+              color: colors.dark,
+              width: 1
+            })
+          })
+        });
+
+        var multiSelectStyle = new Style.Style({
+          stroke: new Style.Stroke({
+            color: '#f00',
+            width: 1
+          }),
+          fill: new Style.Fill({
+            color: 'rgba(0,255,0,0.1)'
+          }),
+          text: new Style.Text({
+            font: '14px Helvetica',
+            fill: new Style.Fill({
+              color: colors.light
+            }),
+            stroke: new Style.Stroke({
+              color: colors.dark,
+              width: 1
+            })
+          })
+        });
+        
   useEffect(()=>{
     
     if(mapRef.current && !ref.current){
 
-      var style = new Style.Style({
-        fill: new Style.Fill({
-          color: colors.primary
-        }),
-        stroke: new Style.Stroke({
-          color: '#319FD3',
-          width: 1
-        }),
-        text: new Style.Text({
-          font: '14px Helvetica',
-          fill: new Style.Fill({
-            color: colors.light
-          }),
-          stroke: new Style.Stroke({
-            color: colors.dark,
-            width: 1
-          })
-        })
-      });
-
-      var highlightStyle = new Style.Style({
-        stroke: new Style.Stroke({
-          color: '#f00',
-          width: 1
-        }),
-        fill: new Style.Fill({
-          color: 'rgba(255,0,0,0.1)'
-        }),
-        text: new Style.Text({
-          font: '14px Helvetica',
-          fill: new Style.Fill({
-            color: colors.light
-          }),
-          stroke: new Style.Stroke({
-            color: colors.dark,
-            width: 1
-          })
-        })
-      });
-      
-
-      var vectorLayer = new Layer.Vector({
+    vectorLayer.current = new Layer.Vector({
         source: new Source.Vector({
           url: countiesData,
           format: new GeoJSON()
@@ -81,7 +116,7 @@ const [selectedData, setSelectedData] = useState()
       
       ref.current = new Map({
         controls:[],
-        layers: [vectorLayer],
+        layers: [vectorLayer.current],
         target: mapRef.current,
         view: new View({
           center: [0, 0],
@@ -89,12 +124,21 @@ const [selectedData, setSelectedData] = useState()
         })
       });
       
-      var featureOverlay = new Layer.Vector({
+    featureOverlay.current = new Layer.Vector({
         source: new Source.Vector(),
         map: ref.current,
         style: function(feature) {
           highlightStyle.getText().setText(feature.get('name'));
           return highlightStyle;
+        }
+      });
+
+    multiSelectOverlay.current = new Layer.Vector({
+        source: new Source.Vector(),
+        map: ref.current,
+        style: function(feature) {
+          multiSelectStyle.getText().setText(feature.get('name'));
+          return multiSelectStyle;
         }
       });
 
@@ -121,27 +165,30 @@ const [selectedData, setSelectedData] = useState()
         displayMapEvent(e.pixel);
       });
       
-
       var highlight;
       var displayMapEvent = (pixel) => {
 
+        vectorLayer.current.getSource().forEachFeature(function (feature) {
+          multiSelectOverlay.current.getSource().removeFeature(feature);
+        })
         var feature = ref.current.forEachFeatureAtPixel(pixel, function(feature) {
           return feature;
         });
 
-        // console.log(feature.values_.name)
-        setInfoData({title:feature.values_.name,data:['tets']})
-
-
-        // featureOverlay.getSource().addFeature(feature);
+        if(feature?.values_.name){
+            setInfoData({title:feature.values_.name,data:searchByString(feature.values_.name), dataType: 'searchByCountry'})
+        }else{
+            setInfoData({title:'',data:''})
+            return
+        }
         if (feature !== highlight) {
-          featureOverlay.getSource().removeFeature(highlight);
-          if (highlight) {
-          }
-          if (feature) {
-            featureOverlay.getSource().addFeature(feature);
-          }
-          highlight = feature;
+            if (highlight) {
+              featureOverlay.current.getSource().removeFeature(highlight);
+            }
+            if (feature) {
+                featureOverlay.current.getSource().addFeature(feature);
+            }
+            highlight = feature;
         }
 
       };
@@ -149,6 +196,19 @@ const [selectedData, setSelectedData] = useState()
     }
 
   },[])
+
+    useEffect(()=>{
+        if(countryHighlights){
+            let countries = countryHighlights.map(item=>(item.country.toLowerCase()))
+            vectorLayer.current.getSource().forEachFeature(function (feature) {
+              multiSelectOverlay.current.getSource().removeFeature(feature);
+                if(countries.includes(feature.values_.name.toLowerCase())){
+                    console.log(feature.values_.name)
+                    multiSelectOverlay.current.getSource().addFeature(feature);
+                }
+            });
+        }
+    },[countryHighlights])
   
     return (
         <>

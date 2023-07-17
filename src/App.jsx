@@ -10,16 +10,17 @@ import Downloads from './components/downloads';
 import { useState } from 'react';
 
 function App() {
-  const [infoData,setInfoData] = useState({title:'', data:['test']})
+  const [infoData,setInfoData] = useState({title:'', data:[], dataType: 'none'})
   const [highlight,setHighlight] = useState('none')
+  const [countryHighlights, setCountryHighlights] = useState()
 
   return (
     <main className="App">
-      <Map setInfoData={setInfoData} setHighlight={setHighlight}/>
+      <Map setInfoData={setInfoData} setHighlight={setHighlight} countryHighlights={countryHighlights}/>
       <AppTitle/>
-      <SearchBar/>
+      <SearchBar setInfoData={setInfoData} setCountryHighlights={setCountryHighlights}/>
       <Highlighted value={highlight}/>
-      <Info title={infoData.title} data={infoData.data}/>
+      <Info title={infoData.title} data={infoData.data} dataType={infoData.dataType}/>
       <Downloads/>
       <Footer/>
     </main>
