@@ -20,36 +20,238 @@
 
 .title{
   position: fixed;
-  top: 24px;
-  right: 24px;
+  top: 12px;
+  right: 12px;
   padding: 20px;
-  background-color: red;
+  z-index: 2;
+}
+
+.title::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-1deg);
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(232,237,231,0.9);
+  background-color: rgba(38, 38, 38, 0.9);
+  z-index: -1;
+}
+
+.title h1{
+  text-align: right;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  /* color: var(--color-dark); */
+}
+
+.title h1 b{
+  font-size: 2rem;
+  color: var(--color-primary);
 }
 
 .infoSection{
   position: fixed;
   left: 24px;
-  top: 20vh;
-  background: red;
+  top: 25vh;
   height: 50vh;
-  width: 20%;
+  width: 15%;
+  padding: 32px 20px;
+}
+
+.infoSection span{
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+}
+
+.infoSection ul{
+  margin-left: 10%;
+}
+
+.infoSection li{
+  text-align: left;
+  list-style: none;
+  color: aliceblue;
+  margin: 8px;
+}
+
+.infoSection::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(1deg);
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(232,237,231,0.9);
+  background-color: rgba(38, 38, 38, 0.9);
+  z-index: -1;
 }
 
 .searchBar{
   position: fixed;
   top: 10vh;
-  left: 32px;
-  padding: 24px;
+  left: 42px;
+  width: 180px;
+  height: 36px;
   z-index: 2;
   background-color: red;
+}
+
+.searchBar::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  width: 140%;
+  height: 250%;
+  border: 1px solid rgba(232,237,231,0.9);
+  background-color: rgba(38, 38, 38, 0.9);
+  z-index: -1;
+}
+
+.searchBar input{
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.searchBar span{
+  position: absolute;
+  top: -20px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.searchBar .results{
+  position: absolute;
+  top: calc(100% + 4px);
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  border: 1px solid rgba(232,237,231,0.9);
+  border-top: none;
+  background-color: rgba(38, 38, 38, 0.9);
+}
+
+.searchBar .results ul{
+  list-style: none;
+  text-align: left;
+  color: whitesmoke;
+}
+
+.searchBar .results ul li{
+  margin: 8px;
+}
+
+.downloads{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 72px;
+  right: 20px;
+  width: fit-content;
+  height: fit-content; 
+  z-index: 12;
+  background: var(--color-dark);
+  transition: 300ms ease;
+}
+
+.downloads button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  margin: 4px 4px auto auto;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.downloads div{
+  margin: 20px;
+  transition: 300ms ease;
+}
+
+.downloads div ul{
+  list-style: none;
+  text-align: left;
+}
+
+.downloads div ul li,a{
+  margin: 4px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.downloads div h3{
+  color: whitesmoke;
+  font-size: large;
+  font-weight: bold;
+}
+
+.downloads::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(232,237,231,0.9);
+  background-color: rgba(38, 38, 38, 0.9);
+  z-index: -1;
+}
+
+.highlighted{
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  padding: 8px 12px;
+  height: auto;
+  min-width: 250px;
+}
+
+.highlighted::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(232,237,231,0.9);
+  background-color: rgba(38, 38, 38, 0.9);
+  z-index: -1;
+}
+
+.highlighted span{
+  color: whitesmoke;
+  font-size: large;
 }
 
 footer{
   position: fixed;
   bottom: 0;
   left: 0;
+  height: auto;
   width: 100%;
-  padding: 20px;
-  background: red;
+  padding: 12px;
+  border: 2px solid var(--color-dark);
+  background-color: rgba(38, 38, 38, 0.9);
   z-index: 1;
+  text-align: left;
+}
+
+footer p{
+  color: whitesmoke;
+  margin: 0;
 }

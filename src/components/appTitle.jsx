@@ -3,7 +3,7 @@ import React from 'react';
 const Title = () => {
     return (
         <div className='title'>
-            <h1>App Title here</h1>
+            <h1>Explore the Languages of the World <br/> <b>Interactive Language Map</b></h1>
         </div>
     );
 }

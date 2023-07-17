@@ -1,0 +1,1643 @@
+[
+    {
+      "country": "Afghanistan",
+      "languages": [
+        "Pashtu",
+        "Farsi",
+        "Dari",
+        "Hazaragi",
+        "other Turkic and minor languages"
+      ]
+    },
+    {
+      "country": "Albania",
+      "languages": [
+        "Albanian (Tosk is the official dialect)",
+        "Greek"
+      ]
+    },
+    {
+      "country": "Algeria",
+      "languages": [
+        "Arabic",
+        "French",
+        "Berber dialects"
+      ]
+    },
+    {
+      "country": "Andorra",
+      "languages": [
+        "Catalán",
+        "French",
+        "Castilian",
+        "Portuguese"
+      ]
+    },
+    {
+      "country": "Angola",
+      "languages": [
+        "Portuguese",
+        "Bantu and other African languages"
+      ]
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "languages": [
+        "English",
+        "local dialects"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "languages": [
+        "Spanish",
+        "English",
+        "Italian",
+        "German",
+        "French"
+      ]
+    },
+    {
+      "country": "Armenia",
+      "languages": [
+        "Armenian",
+        "Russian"
+      ]
+    },
+    {
+      "country": "Australia",
+      "languages": [
+        "English",
+        "Indigenous languages"
+      ]
+    },
+    {
+      "country": "Austria",
+      "languages": [
+        "German",
+        "Slovene",
+        "Croatian",
+        "Hungarian"
+      ]
+    },
+    {
+      "country": "Azerbaijan",
+      "languages": [
+        "Azerbaijani Turkic",
+        "Russian",
+        "Armenian",
+        "other"
+      ]
+    },
+    {
+      "country": "Bahamas",
+      "languages": [
+        "English",
+        "Creole"
+      ]
+    },
+    {
+      "country": "Bahrain",
+      "languages": [
+        "Arabic",
+        "English",
+        "Farsi",
+        "Urdu"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "languages": [
+        "Bangla",
+        "English"
+      ]
+    },
+    {
+      "country": "Barbados",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "country": "Belarus",
+      "languages": [
+        "Belorussian (White Russian)",
+        "Russian",
+        "other"
+      ]
+    },
+    {
+      "country": "Belize",
+      "languages": [
+        "English",
+        "Spanish",
+        "Mayan",
+        "Garifuna (Carib)",
+        "Creole"
+      ]
+    },
+    {
+      "country": "Benin",
+      "languages": [
+        "French",
+        "Fon",
+        "Yoruba",
+        "tribal languages"
+      ]
+    },
+    {
+      "country": "Bhutan",
+      "languages": [
+        "Dzongkha",
+        "Tibetan and Nepalese dialects"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "languages": [
+        "Spanish",
+        "Quechua",
+        "Aymara"
+      ]
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "languages": [
+        "Bosnian",
+        "Croatian",
+        "Serbian (all formerly known as Serbo-Croatian); written languages use Latin and Cyrillic script"
+      ]
+    },
+    {
+      "country": "Botswana",
+      "languages": [
+        "English",
+        "Setswana"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "languages": [
+        "Portuguese",
+        "Spanish",
+        "English",
+        "French"
+      ]
+    },
+    {
+      "country": "Brunei Darussalam",
+      "languages": [
+        "Malay",
+        "English",
+        "Chinese"
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "languages": [
+        "Bulgarian; secondary ethnic languages"
+      ]
+    },
+    {
+      "country": "Burkina Faso",
+      "languages": [
+        "French",
+        "Indigenous African (Sudanic) languages"
+      ]
+    },
+    {
+      "country": "Burundi",
+      "languages": [
+        "Kirundi",
+        "French",
+        "Swahili"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "languages": [
+        "Khmer",
+        "French",
+        "English"
+      ]
+    },
+    {
+      "country": "Cameroon",
+      "languages": [
+        "French",
+        "English",
+        "24 major African language groups"
+      ]
+    },
+    {
+      "country": "Canada",
+      "languages": [
+        "English",
+        "French",
+        "Indigenous languages"
+      ]
+    },
+    {
+      "country": "Cape Verde",
+      "languages": [
+        "Portuguese",
+        "Criuolo"
+      ]
+    },
+    {
+      "country": "Central African Republic",
+      "languages": [
+        "French",
+        "Sangho",
+        "Arabic",
+        "Hansa",
+        "Swahili"
+      ]
+    },
+    {
+      "country": "Chad",
+      "languages": [
+        "French",
+        "Arabic",
+        "Sara",
+        "more than 120 languages and dialects"
+      ]
+    },
+    {
+      "country": "Chile",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "country": "China (PRC)",
+      "languages": [
+        "Cantonese",
+        "Mandarin",
+        "also local dialects (Daur, Kalmyk-Oirat, Lu, Peripheral Mongolian, Central Tibetan, Uyghur, Xibe, Zhuang)"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "country": "Comoros",
+      "languages": [
+        "Arabic and French",
+        "Shikomoro (Swahili/Arabic blend)"
+      ]
+    },
+    {
+      "country": "Congo, Republic of",
+      "languages": [
+        "French",
+        "Lingala",
+        "Monokutuba",
+        "Kikongo",
+        "many local languages and dialects"
+      ]
+    },
+    {
+      "country": "Congo (DRC)",
+      "languages": [
+        "French",
+        "Lingala",
+        "Kingwana",
+        "Kikongo",
+        "Tshiluba"
+      ]
+    },
+    {
+      "country": "Costa Rica",
+      "languages": [
+        "Spanish",
+        "English"
+      ]
+    },
+    {
+      "country": "Côte d’Ivoire",
+      "languages": [
+        "French",
+        "African languages (Diaula esp.)"
+      ]
+    },
+    {
+      "country": "Croatia",
+      "languages": [
+        "Bosnian",
+        "Croatian",
+        "Serbian (all formerly known as Serbo-Croatian)",
+        "Italian",
+        "Hungarian",
+        "Czech",
+        "Slovak",
+        "German",
+        "and other languages"
+      ]
+    },
+    {
+      "country": "Cuba",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "country": "Cyprus",
+      "languages": [
+        "Greek",
+        "Turkish",
+        "English"
+      ]
+    },
+    {
+      "country": "Czech Republic",
+      "languages": [
+        "Czech"
+      ]
+    },
+    {
+      "country": "Denmark",
+      "languages": [
+        "Danish",
+        "Faeroese",
+        "Greenlandic (Inuit dialect)",
+        "German",
+        "English"
+      ]
+    },
+    {
+      "country": "Djibouti",
+      "languages": [
+        "French",
+        "Arabic",
+        "Somali",
+        "Afar"
+      ]
+    },
+    {
+      "country": "Dominica",
+      "languages": [
+        "English",
+        "French patois"
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "country": "East Timor",
+      "languages": [
+        "Tetum",
+        "Portuguese",
+        "Bahasa Indonesian",
+        "English",
+        "other Indigenous languages, including Tetum, Galole, Mambae, and Kemak"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "languages": [
+        "Spanish",
+        "Quechua",
+        "other Amerindian languages"
+      ]
+    },
+    {
+      "country": "Egypt",
+      "languages": [
+        "Arabic",
+        "English",
+        "French"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "languages": [
+        "Spanish",
+        "Nahua (among some Amerindians)"
+      ]
+    },
+    {
+      "country": "Equatorial Guinea",
+      "languages": [
+        "Spanish",
+        "French",
+        "pidgin English",
+        "Fang",
+        "Bubi",
+        "Ibo"
+      ]
+    },
+    {
+      "country": "Eritrea",
+      "languages": [
+        "Afar",
+        "Arabic",
+        "Tigre and Kunama",
+        "Tigrinya",
+        "other Cushitic languages"
+      ]
+    },
+    {
+      "country": "Estonia",
+      "languages": [
+        "Estonian",
+        "Russian",
+        "Ukrainian",
+        "Finnish",
+        "other"
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "languages": [
+        "Amharic",
+        "Tigrigna",
+        "Orominga",
+        "Guaragigna",
+        "Somali",
+        "Arabic",
+        "English",
+        "70 others"
+      ]
+    },
+    {
+      "country": "Fiji",
+      "languages": [
+        "English",
+        "Fijian",
+        "Hindustani"
+      ]
+    },
+    {
+      "country": "Finland",
+      "languages": [
+        "Finnish",
+        "Swedish",
+        "small Sami (Lapp)",
+        "Russian"
+      ]
+    },
+    {
+      "country": "France",
+      "languages": [
+        "French",
+        "regional dialects (Provençal, Breton, Alsatian, Corsican, Catalan, Basque, Flemish)"
+      ]
+    },
+    {
+      "country": "Gabon",
+      "languages": [
+        "French",
+        "Fang",
+        "Myene",
+        "Bateke",
+        "Bapounou/Eschira",
+        "Bandjabi"
+      ]
+    },
+    {
+      "country": "Gambia, The",
+      "languages": [
+        "English",
+        "Mandinka",
+        "Wolof",
+        "Fula",
+        "Serer-Sine",
+        "Sarahole",
+        "Pulaar",
+        "Maninkakan",
+        "Mandjaque",
+        "Mandingo",
+        "Jola-Fonyi",
+        "Creole"
+      ]
+    },
+    {
+      "country": "Georgia",
+      "languages": [
+        "Georgian",
+        "Russian",
+        "Armenian",
+        "Azerbaijani",
+        "Abkhaz"
+      ]
+    },
+    {
+      "country": "Germany",
+      "languages": [
+        "German"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "languages": [
+        "English",
+        "Indigenous languages (Brong Ahafo, Twi, Fanti, Ga, Ewe, Dagbani)"
+      ]
+    },
+    {
+      "country": "Greece",
+      "languages": [
+        "Greek",
+        "English",
+        "French"
+      ]
+    },
+    {
+      "country": "Grenada",
+      "languages": [
+        "English",
+        "French patois"
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "languages": [
+        "Spanish",
+        "Amerindian languages (23 officially recognized Amerindian languages, including Quiche, Cakchiquel, Kekchi, Mam, Garifuna, and Xinca)"
+      ]
+    },
+    {
+      "country": "Guinea",
+      "languages": [
+        "French",
+        "Indigenous languages (Malinké, Susu, Fulani)"
+      ]
+    },
+    {
+      "country": "Guinea-Bissau",
+      "languages": [
+        "Portuguese",
+        "Criolo",
+        "African languages"
+      ]
+    },
+    {
+      "country": "Guyana",
+      "languages": [
+        "English",
+        "Amerindian dialects",
+        "Creole",
+        "Hindi",
+        "Urdu"
+      ]
+    },
+    {
+      "country": "Haiti",
+      "languages": [
+        "Creole",
+        "French"
+      ]
+    },
+    {
+      "country": "Honduras",
+      "languages": [
+        "Spanish",
+        "Amerindian dialects",
+        "English"
+      ]
+    },
+    {
+      "country": "Hong Kong Special Administration Region (SAR)",
+      "languages": [
+        "Cantonese",
+        "Mandarin"
+      ]
+    },
+    {
+      "country": "Hungary",
+      "languages": [
+        "Magyar (Hungarian)",
+        "other"
+      ]
+    },
+    {
+      "country": "Iceland",
+      "languages": [
+        "Icelandic",
+        "English",
+        "Nordic languages",
+        "German"
+      ]
+    },
+    {
+      "country": "India",
+      "languages": [
+        "Hindi",
+        "English",
+        "Bengali",
+        "Gujarati",
+        "Kashmiri",
+        "Malayalam",
+        "Marathi",
+        "Oriya",
+        "Punjabi",
+        "Tamil",
+        "Telugu",
+        "Urdu",
+        "Kannada",
+        "Assamese",
+        "Sanskrit",
+        "Sindhi",
+        "and 1600+ dialects"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "languages": [
+        "Bahasa Indonesia",
+        "English",
+        "Dutch",
+        "Javanese",
+        "and 580+ languages/dialects"
+      ]
+    },
+    {
+      "country": "Iran",
+      "languages": [
+        "Farsi (Persian)",
+        "Azari",
+        "Kurdish",
+        "Arabic"
+      ]
+    },
+    {
+      "country": "Iraq",
+      "languages": [
+        "Arabic",
+        "Kurdish",
+        "Assyrian Neo Aramaic"
+      ]
+    },
+    {
+      "country": "Ireland",
+      "languages": [
+        "English",
+        "Irish Gaelic"
+      ]
+    },
+    {
+      "country": "Israel",
+      "languages": [
+        "Hebrew",
+        "Arabic",
+        "English",
+        "Russian"
+      ]
+    },
+    {
+      "country": "Italy",
+      "languages": [
+        "Italian",
+        "German",
+        "French",
+        "Slovene"
+      ]
+    },
+    {
+      "country": "Iran",
+      "languages": [
+        "Farsi (Persian)",
+        "Azari",
+        "Kurdish",
+        "Arabic"
+      ]
+    },
+    {
+      "country": "Iraq",
+      "languages": [
+        "Arabic",
+        "Kurdish",
+        "Assyrian Neo Aramaic"
+      ]
+    },
+    {
+      "country": "Ireland",
+      "languages": [
+        "English",
+        "Irish Gaelic"
+      ]
+    },
+    {
+      "country": "Israel",
+      "languages": [
+        "Hebrew",
+        "Arabic",
+        "English",
+        "Russian"
+      ]
+    },
+    {
+      "country": "Italy",
+      "languages": [
+        "Italian",
+        "German",
+        "French",
+        "Slovene"
+      ]
+    },
+    {
+      "country": "Iran",
+      "languages": [
+        "Farsi (Persian)",
+        "Azari",
+        "Kurdish",
+        "Arabic"
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "languages": [
+        "English",
+        "Jamaican Creole"
+      ]
+    },
+    {
+      "country": "Japan",
+      "languages": [
+        "Japanese"
+      ]
+    },
+    {
+      "country": "Jordan",
+      "languages": [
+        "Arabic",
+        "English"
+      ]
+    },
+    {
+      "country": "Kazakhstan",
+      "languages": [
+        "Kazak (Qazaq)",
+        "Russian"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "languages": [
+        "English",
+        "Swahili",
+        "25 ethnic group languages"
+      ]
+    },
+    {
+      "country": "Kiribati",
+      "languages": [
+        "English",
+        "I-Kiribati (Gilbertese)"
+      ]
+    },
+    {
+      "country": "Korea, North",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "country": "Korea, South",
+      "languages": [
+        "Korean"
+      ]
+    },
+    {
+      "country": "Kuwait",
+      "languages": [
+        "Arabic",
+        "English"
+      ]
+    },
+    {
+      "country": "Kyrgyzstan",
+      "languages": [
+        "Kyrgyz",
+        "Russian"
+      ]
+    },
+    {
+      "country": "Laos",
+      "languages": [
+        "Lao",
+        "French",
+        "English"
+      ]
+    },
+    {
+      "country": "Latvia",
+      "languages": [
+        "Latvian",
+        "Russian"
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "languages": [
+        "Arabic",
+        "French",
+        "English"
+      ]
+    },
+    {
+      "country": "Lesotho",
+      "languages": [
+        "English",
+        "Sesotho",
+        "Zulu",
+        "Xhosa"
+      ]
+    },
+    {
+      "country": "Liberia",
+      "languages": [
+        "English",
+        "tribal dialects"
+      ]
+    },
+    {
+      "country": "Libya",
+      "languages": [
+        "Arabic",
+        "Italian",
+        "English"
+      ]
+    },
+    {
+      "country": "Liechtenstein",
+      "languages": [
+        "German",
+        "Alemmanic dialect"
+      ]
+    },
+    {
+      "country": "Lithuania",
+      "languages": [
+        "Lithuanian",
+        "Polish",
+        "Russian"
+      ]
+    },
+    {
+      "country": "Luxembourg",
+      "languages": [
+        "Luxermbourgish",
+        "French",
+        "German"
+      ]
+    },
+    {
+      "country": "Macedonia, former Yugoslav Republic of",
+      "languages": [
+        "Macedonian (uses the Cyrillic alphabet)",
+        "Albanian",
+        "Turkish",
+        "other"
+      ]
+    },
+    {
+      "country": "Madagascar",
+      "languages": [
+        "Malagasy",
+        "French"
+      ]
+    },
+    {
+      "country": "Malawi",
+      "languages": [
+        "English",
+        "Chichewa"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "languages": [
+        "Malay",
+        "Chinese",
+        "Tamil",
+        "English"
+      ]
+    },
+    {
+      "country": "Maldives",
+      "languages": [
+        "Dhivehi",
+        "Arabic",
+        "Hindi",
+        "English"
+      ]
+    },
+    {
+      "country": "Mali",
+      "languages": [
+        "French",
+        "African languages"
+      ]
+    },
+    {
+      "country": "Malta",
+      "languages": [
+        "Maltese",
+        "English"
+      ]
+    },
+    {
+      "country": "Marshall Islands",
+      "languages": [
+        "Marshallese",
+        "English"
+      ]
+    },
+    {
+      "country": "Mauritania",
+      "languages": [
+        "Arabic",
+        "Wolof",
+        "French"
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "languages": [
+        "English",
+        "French",
+        "Creole",
+        "Hindi",
+        "Urdu",
+        "Hakka",
+        "Bojpoori"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "languages": [
+        "Spanish",
+        "Indian languages"
+      ]
+    },
+    {
+      "country": "Micronesia",
+      "languages": [
+        "English",
+        "Chukese",
+        "Pohnpeian",
+        "Yapase",
+        "Kosrean"
+      ]
+    },
+    {
+      "country": "Moldova",
+      "languages": [
+        "Moldovan (similar to Romanian)",
+        "Russian",
+        "Gagauz (Turkish dialect)"
+      ]
+    },
+    {
+      "country": "Monaco",
+      "languages": [
+        "French",
+        "English",
+        "Italian",
+        "Monégasque"
+      ]
+    },
+    {
+      "country": "Mongolia",
+      "languages": [
+        "Mongolian",
+        "Turkic",
+        "Russian",
+        "Chinese"
+      ]
+    },
+    {
+      "country": "Morocco",
+      "languages": [
+        "Arabic",
+        "French",
+        "Berber dialects",
+        "Spanish"
+      ]
+    },
+    {
+      "country": "Mozambique",
+      "languages": [
+        "Portuguese",
+        "Bantu languages"
+      ]
+    },
+    {
+      "country": "Myanmar",
+      "languages": [
+        "The Myanmar language (formerly Burmese)",
+        "Karen",
+        "Chin",
+        "Rohingya"
+      ]
+    },
+    {
+      "country": "Namibia",
+      "languages": [
+        "Afrikaans",
+        "German",
+        "English",
+        "several Indigenous languages"
+      ]
+    },
+    {
+      "country": "Nauru",
+      "languages": [
+        "Nauruan",
+        "English"
+      ]
+    },
+    {
+      "country": "Nepal",
+      "languages": [
+        "Nepali",
+        "Newar",
+        "Maithali",
+        "Bhojpuri",
+        "Tharu",
+        "Tamang",
+        "and others"
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "languages": [
+        "Dutch",
+        "Frisian"
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "languages": [
+        "English",
+        "Maori"
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "country": "Niger",
+      "languages": [
+        "French",
+        "Hausa",
+        "Songhai",
+        "Arabic"
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "languages": [
+        "English",
+        "Hausa",
+        "Yoruba",
+        "Ibo",
+        "200+ others"
+      ]
+    },
+    {
+      "country": "Norway",
+      "languages": [
+        "Bokmål",
+        "Nynorsk (forms of Norwegian)"
+      ]
+    },
+    {
+      "country": "Oman",
+      "languages": [
+        "Arabic",
+        "English",
+        "Indian languages"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "languages": [
+        "Punjabi",
+        "Sindhi",
+        "Siraiki (Punjabi variant)",
+        "Pashtu",
+        "Urdu",
+        "Balochi",
+        "Hindko",
+        "Brahui",
+        "English",
+        "Burushaski",
+        "and others"
+      ]
+    },
+    {
+      "country": "Palau",
+      "languages": [
+        "Palau"
+      ]
+    },
+    {
+      "country": "Palestinian territories",
+      "languages": [
+        "Arabic",
+        "Hebrew",
+        "English",
+        "French"
+      ]
+    },
+    {
+      "country": "Panama",
+      "languages": [
+        "Spanish",
+        "English"
+      ]
+    },
+    {
+      "country": "Papua New Guinea",
+      "languages": [
+        "English",
+        "Tok Pisin (Melanesian Creole English)",
+        "Hiri Motu",
+        "and 717 distinct Indigenous languages"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "languages": [
+        "Spanish",
+        "Guaraní"
+      ]
+    },
+    {
+      "country": "Peru",
+      "languages": [
+        "Spanish",
+        "Quéchua",
+        "Aymara",
+        "and other Indigenous languages"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "languages": [
+        "Filipino (based on Tagalog)",
+        "English",
+        "regional languages: Tagalog",
+        "Ilocano",
+        "Cebuano",
+        "others"
+      ]
+    },
+    {
+      "country": "Poland",
+      "languages": [
+        "Polish"
+      ]
+    },
+    {
+      "country": "Portugal",
+      "languages": [
+        "Portuguese"
+      ]
+    },
+    {
+      "country": "Qatar",
+      "languages": [
+        "Arabic",
+        "English"
+      ]
+    },
+    {
+      "country": "Romania",
+      "languages": [
+        "Romanian",
+        "Hungarian",
+        "German"
+      ]
+    },
+    {
+      "country": "Russia",
+      "languages": [
+        "Russian",
+        "others"
+      ]
+    },
+    {
+      "country": "Rwanda",
+      "languages": [
+        "Kinyarwanda",
+        "French",
+        "English"
+      ]
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "country": "Saint Lucia",
+      "languages": [
+        "English",
+        "Patois"
+      ]
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "languages": [
+        "English",
+        "French patois"
+      ]
+    },
+    {
+      "country": "Samoa",
+      "languages": [
+        "Samoan",
+        "English"
+      ]
+    },
+    {
+      "country": "San Marino",
+      "languages": [
+        "Italian"
+      ]
+    },
+    {
+      "country": "São Tomé and Príncipe",
+      "languages": [
+        "Portuguese"
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "languages": [
+        "Arabic",
+        "English widely spoken"
+      ]
+    },
+    {
+      "country": "Senegal",
+      "languages": [
+        "French",
+        "Wolof",
+        "Serer",
+        "other ethnic dialects"
+      ]
+    },
+    {
+      "country": "Serbia and Montenegro",
+      "languages": [
+        "Serbian",
+        "Albanian (once known as Serbo-Croatian); written language uses Latin and Cyrillic script"
+      ]
+    },
+    {
+      "country": "Seychelles",
+      "languages": [
+        "English",
+        "French",
+        "Seselwa (a creole)"
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "languages": [
+        "English",
+        "Mende",
+        "Temne",
+        "Krio"
+      ]
+    },
+    {
+      "country": "Singapore",
+      "languages": [
+        "Malay",
+        "Chinese (Mandarin)",
+        "Tamil",
+        "English"
+      ]
+    },
+    {
+      "country": "Slovakia",
+      "languages": [
+        "Slovak",
+        "Hungarian"
+      ]
+    },
+    {
+      "country": "Slovenia",
+      "languages": [
+        "Slovenian",
+        "Serbo-Croatian"
+      ]
+    },
+    {
+      "country": "Solomon Islands",
+      "languages": [
+        "English",
+        "Solomon Pijin (an English pidgin)",
+        "60 Indigenous Melanesian languages"
+      ]
+    },
+    {
+      "country": "Somalia",
+      "languages": [
+        "Somali",
+        "Arabic",
+        "English",
+        "Italian"
+      ]
+    },
+    {
+      "country": "South Africa",
+      "languages": [
+        "Xhosa",
+        "Zulu",
+        "English",
+        "Afrikaans",
+        "Ndebele",
+        "Sesotho sa Leboa",
+        "Sesotho",
+        "Swati",
+        "Xitsonga",
+        "Setswana",
+        "Tshivenda"
+      ]
+    },
+    {
+      "country": "South Sudan",
+      "languages": [
+        "English",
+        "Arabic",
+        "Dinka",
+        "Nuer",
+        "Zande"
+      ]
+    },
+    {
+      "country": "Spain",
+      "languages": [
+        "Castilian Spanish",
+        "Catalan",
+        "Galician",
+        "Basque"
+      ]
+    },
+    {
+      "country": "Sri Lanka",
+      "languages": [
+        "Sinhala",
+        "Tamil",
+        "English"
+      ]
+    },
+    {
+      "country": "Sudan",
+      "languages": [
+        "Arabic",
+        "English",
+        "Dinka",
+        "tribal dialects"
+      ]
+    },
+    {
+      "country": "Suriname",
+      "languages": [
+        "Dutch",
+        "Surinamese (lingua franca)",
+        "English widely spoken"
+      ]
+    },
+    {
+      "country": "Swaziland",
+      "languages": [
+        "English",
+        "Swazi"
+      ]
+    },
+    {
+      "country": "Sweden",
+      "languages": [
+        "Swedish"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "languages": [
+        "German",
+        "French",
+        "Italian",
+        "Romansch"
+      ]
+    },
+    {
+      "country": "Syria",
+      "languages": [
+        "Arabic",
+        "Kurdish",
+        "French and English widely understood"
+      ]
+    },
+    {
+      "country": "Taiwan",
+      "languages": [
+        "Chinese (Mandarin)"
+      ]
+    },
+    {
+      "country": "Tajikistan",
+      "languages": [
+        "Tajik",
+        "Russian",
+        "Uzbek"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "languages": [
+        "Swahili",
+        "English",
+        "local languages"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "languages": [
+        "Thai (Siamese)",
+        "Chinese",
+        "English"
+      ]
+    },
+    {
+      "country": "Togo",
+      "languages": [
+        "French",
+        "Ewé",
+        "Mina (south)",
+        "Kabyé",
+        "Cotocoli (north)",
+        "and many dialects"
+      ]
+    },
+    {
+      "country": "Tonga",
+      "languages": [
+        "Tongan (an Austronesian language)",
+        "English"
+      ]
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "languages": [
+        "English",
+        "Hindi",
+        "French",
+        "Spanish"
+      ]
+    },
+    {
+      "country": "Tunisia",
+      "languages": [
+        "Arabic",
+        "French"
+      ]
+    },
+    {
+      "country": "Turkey",
+      "languages": [
+        "Turkish",
+        "Kurdish"
+      ]
+    },
+    {
+      "country": "Turkmenistan",
+      "languages": [
+        "Turkmen",
+        "Russian",
+        "Uzbek"
+      ]
+    },
+    {
+      "country": "Tuvalu",
+      "languages": [
+        "Tuvaluan",
+        "English"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "languages": [
+        "English",
+        "Swahili",
+        "Luganda",
+        "Ateso",
+        "Luo"
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "languages": [
+        "Ukrainian"
+      ]
+    },
+    {
+      "country": "United Arab Emirates",
+      "languages": [
+        "Arabic",
+        "English as a second language"
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "languages": [
+        "English",
+        "Welsh",
+        "Scots Gaelic"
+      ]
+    },
+    {
+      "country": "United States",
+      "languages": [
+        "English",
+        "sizable Spanish-speaking minority"
+      ]
+    },
+    {
+      "country": "Uruguay",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    {
+      "country": "Uzbekistan",
+      "languages": [
+        "Uzbek",
+        "Russian",
+        "Tajik",
+        "other"
+      ]
+    },
+    {
+      "country": "Vanuatu",
+      "languages": [
+        "Bislama (a Melanesian pidgin English)",
+        "English",
+        "French"
+      ]
+    },
+    {
+      "country": "Vatican City",
+      "languages": [
+        "Latin",
+        "Italian",
+        "and various other languages"
+      ]
+    },
+    {
+      "country": "Venezuela",
+      "languages": [
+        "Spanish",
+        "various Indigenous languages in the remote interior"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "languages": [
+        "Vietnamese",
+        "French",
+        "English",
+        "Khmer",
+        "Chinese"
+      ]
+    },
+    {
+      "country": "Western Sahara region",
+      "languages": [
+        "Hassaniya Arabic",
+        "Moroccan Arabic"
+      ]
+    },
+    {
+      "country": "Yemen",
+      "languages": [
+        "Arabic"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "languages": [
+        "English",
+        "local dialects"
+      ]
+    }
+  ]
+  

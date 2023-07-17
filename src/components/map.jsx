@@ -9,7 +9,7 @@ import GeoJSON from 'ol/format/GeoJSON';
 
 import countiesData from '../data/countries.geojson'
 
-const MapComponent = () => {
+const MapComponent = ({setInfoData,setHighlight}) => {
     
 const [selectedData, setSelectedData] = useState()
   const mapRef = useRef()
@@ -103,8 +103,19 @@ const [selectedData, setSelectedData] = useState()
           return;
         }
         var pixel = ref.current.getEventPixel(e.originalEvent);
-        displayMapEvent(pixel);
+        highlightMapEvent(pixel);
       });
+
+      var highlightMapEvent = (pixel) =>{
+        var feature = ref.current.forEachFeatureAtPixel(pixel, function(feature) {
+            return feature;
+        });
+        if(feature?.values_.name){
+            setHighlight(feature.values_.name)
+        }else{
+            setHighlight('Water Body')
+        }
+      }
 
       ref.current.on('click', function(e) {
         displayMapEvent(e.pixel);
@@ -112,13 +123,14 @@ const [selectedData, setSelectedData] = useState()
       
 
       var highlight;
-      var displayMapEvent = function(pixel) {
+      var displayMapEvent = (pixel) => {
 
         var feature = ref.current.forEachFeatureAtPixel(pixel, function(feature) {
           return feature;
         });
 
-        console.log(feature)
+        // console.log(feature.values_.name)
+        setInfoData({title:feature.values_.name,data:['tets']})
 
 
         // featureOverlay.getSource().addFeature(feature);
