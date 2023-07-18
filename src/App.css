@@ -277,3 +277,27 @@ footer span{
 footer a{
   color: var(--color-primary);
 }
+
+@media screen and (max-width: 1150px){
+  .highlighted{
+    bottom: 96px;
+  }
+  .downloads{
+    bottom: 96px;
+  }
+}
+
+
+@media screen and (max-width: 720px){
+  .searchBar{
+    position: fixed;
+    top: 25vh;
+  }
+  .downloads{
+    bottom: 164px;
+  }
+
+  .highlighted{
+    bottom: 112px;
+  }
+}
