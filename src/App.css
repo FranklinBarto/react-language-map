@@ -219,7 +219,7 @@
 
 .highlighted{
   position: fixed;
-  bottom: 60px;
+  bottom: 72px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -262,4 +262,18 @@ footer{
 footer p{
   color: whitesmoke;
   margin: 0;
+}
+
+footer span{
+  color: whitesmoke;
+  font-size: small;
+  margin: 4px;
+}
+
+footer span{
+  color: whitesmoke;
+}
+
+footer a{
+  color: var(--color-primary);
 }
