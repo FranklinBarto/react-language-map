@@ -11,8 +11,11 @@ import SearchBar from './components/searchBar';
 import Downloads from './components/downloads';
 
 function App() {
+  // Global States used to keep components in sync
   const [infoData,setInfoData] = useState({title:'', data:[], dataType: 'none'})
+  // Tracks the country the pointer hovers on; Map State
   const [highlight,setHighlight] = useState('none')
+  // Tracks the country that was last selected; Map State
   const [countryHighlights, setCountryHighlights] = useState()
 
   return (

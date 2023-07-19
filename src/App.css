@@ -285,19 +285,83 @@ footer a{
   .downloads{
     bottom: 96px;
   }
+
+  .infoSection{
+    width: 30%;
+    padding: 12px;
+  }
+
+  .infoSection span{
+    font-size: large;
+  }
+
+  .infoSection ul{
+    margin-left: 4px;
+  }
+
+  .infoSection li{
+    margin: 4px;
+  }
 }
 
 
 @media screen and (max-width: 720px){
-  .searchBar{
-    position: fixed;
-    top: 25vh;
+  .title{
+    padding: 8px;
   }
+
+  .title h1{
+    font-size: 1rem;
+  }
+  
+  .title h1 b{
+    font-size: 1.2rem;
+  }
+
+  .searchBar{
+    top: 18vh;
+    width: 150px;
+    height: 24px;
+  }
+  
+  .searchBar::before{
+    width: 150%;
+    height: 200%;
+  }
+
+  .searchBar span{
+    font-weight: bold;
+    font-size: 0.8rem;
+    top: -30px;
+  }
+  
+  .infoSection{
+    width: 45%;
+  }
+
   .downloads{
     bottom: 164px;
   }
 
   .highlighted{
     bottom: 112px;
+    padding: 4px 8px;
+    min-width: 200px;
+  }
+  
+  .highlighted span{
+    font-size: normal;
+  }
+
+  .downloads button{
+    font-size: normal;
+  }
+  
+  footer p{
+    font-size: small;
+  }
+
+  footer span{
+    font-size: x-small;
   }
 }

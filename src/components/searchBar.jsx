@@ -2,25 +2,28 @@ import React, { useEffect, useState } from 'react';
 import languages from '../data/languages.json'
 import countryLanguages from '../data/languagesByCountries.json'
 
+// The search bar has an auto complete function
 const SearchBar = ({setInfoData,setCountryHighlights,title}) => {
+    // State to support search function of the drop down
     const [selected,setSelected] = useState(false)
     const [search,setSearch] = useState()
     const [results,setResults] = useState()
     
-    const languageData = languages
-    const countryData = countryLanguages
+    // Lets take in the data directly from the import to eliminate setting variables in case of state refresh
+    // const languageData = languages
+    // const countryData = countryLanguages
 
+    // Search for languages by string
     const searchByString = (target)=>{
-        let filteredData = languageData.filter(item => {
+        let filteredData = languages.filter(item => {
           // Check if the item contains the substring, use all lowercase to allow for case insensitive search
           return JSON.stringify(item).toLowerCase().includes(target.toLowerCase());
         });
         return(filteredData.slice(0,20))
     }
 
-
-    const searchByLanguage = (target)=>{
-        let filteredData = countryData.filter(item => {
+    const handleLanguageSelect = (target)=>{
+        let filteredData = countryLanguages.filter(item => {
             // Check if the item contains the substring, use all lowercase to allow for case insensitive search
             return JSON.stringify(item).toLowerCase().includes(target.toLowerCase());
           });
@@ -29,6 +32,7 @@ const SearchBar = ({setInfoData,setCountryHighlights,title}) => {
         setInfoData({title: target, data: filteredData, dataType: 'searchByLanguage'})
     }
 
+    // Handle search language input change
     useEffect(()=>{
         if(search){
             setResults(searchByString(search))
@@ -52,7 +56,7 @@ const SearchBar = ({setInfoData,setCountryHighlights,title}) => {
                 <div className='results'>
                     <ul>
                         {
-                            results.map(item=>(<li onClick={()=>{searchByLanguage(item.name);setSelected(true)}}>{item.name}</li>))
+                            results.map(item=>(<li onClick={()=>{handleLanguageSelect(item.name);setSelected(true)}}>{item.name}</li>))
                         }
                     </ul>
                 </div>
